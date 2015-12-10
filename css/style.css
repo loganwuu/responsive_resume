@@ -40,10 +40,11 @@ strong {
 	color: rgba(88,88,91,1.0);
 }
 .ph-logo-name {
-	font-family: 'Oswald', sans-serif;
-	letter-spacing: 6px;
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+	letter-spacing: 2px;
 	color: rgba(153,102,102,1.0);
-	margin-bottom: 0px;
+	margin-bottom: 2px;
 	font-size: 2.2em;
 }
 .ph-employer{
@@ -64,7 +65,7 @@ strong {
 	color: #aaa;
 	font-size: .8em;
 	margin-right: 1px;
-	margin-top: -5px;
+	margin-top: 0px;
 }
 .ph-gig-h4{
 	padding-left: 10px;
@@ -87,11 +88,11 @@ strong {
 	margin-bottom: 0px;
 }
 .ph-logo-occup {
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
     font-weight: 100;
 	color: rgba(153,102,102,1.0);
 	margin: 0px;
-	font-size: 2em;
+	font-size: 1.9em;
 }
 .ph-resume {
 	margin-top: 50px;
@@ -162,6 +163,10 @@ strong {
 	text-align: center;
     letter-spacing: 9px;
 	}
+
+  .special {
+    padding-left: 0;
+  }
 }
 
 @media (min-width: 768px) {

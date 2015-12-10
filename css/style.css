@@ -11,6 +11,8 @@ body {
 	font-size: 18px;
 	color: #000033;
 	line-height: 1.375em;
+  /*-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
 }
 li {
 	font-weight: 300;

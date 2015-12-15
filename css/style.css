@@ -3,7 +3,15 @@
 } */
 
 a {
-	color: #000033;
+	color: #3D5C5C;
+}
+a:hover,
+a:focus,
+a:active,
+a.active  {
+	color: #3D5C5C;
+	text-decoration: none;
+  border-bottom: 2px solid #996666;
 }
 body {
 	background-color: #EEEEEE;
@@ -33,7 +41,7 @@ strong {
 	color: rgba(88,88,91,1.0);
 }
 .ph-contact a{
-	color: rgba(88,88,91,1.0);
+	color: #3D5C5C;
 }
 .ph-contact p{
 	margin-bottom: 0px;
@@ -90,11 +98,11 @@ strong {
 	margin-bottom: 0px;
 }
 .ph-logo-occup {
-    letter-spacing: 1.2px;
-    font-weight: 100;
+  letter-spacing: 1.2px;
+  font-weight: 100;
 	color: rgba(153,102,102,1.0);
 	margin: 0px;
-	font-size: 1.9em;
+	font-size: 1.65em;
 }
 .ph-resume {
 	margin-top: 50px;
@@ -128,7 +136,7 @@ strong {
 		text-align: left;
 	}
 	.ph-employer h4{
-	text-align: center;
+	/*text-align: center;*/
 	margin-bottom: 0px;
 	}
 	.ph-resume {
@@ -149,7 +157,8 @@ strong {
 	.ph-subhead {
 	text-decoration: underline;
 	color: rgba(153,102,102,1.0);
-	font-size: 2.4em;
+	font-size: 2em;
+	text-align: center;
 	}
 	.ph-skills {
 	margin: 0px;
@@ -161,9 +170,9 @@ strong {
 	letter-spacing: 6px;
 	}
 	.ph-logo-occup {
-	font-size: 2.85em;
+	font-size: 2.4em;
 	text-align: center;
-    letter-spacing: 9px;
+  letter-spacing: 2px;
 	}
 
   .special {

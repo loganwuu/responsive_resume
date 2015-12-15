@@ -1,0 +1,193 @@
+/*  * {
+	border: 1px red dotted;
+} */
+
+a {
+	color: #3D5C5C;
+}
+a:hover,
+a:focus,
+a:active,
+a.active  {
+	color: #3D5C5C;
+	text-decoration: none;
+  border-bottom: 2px solid #996666;
+}
+body {
+	background-color: #EEEEEE;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #000033;
+	line-height: 1.375em;
+  /*-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
+}
+li {
+	font-weight: 300;
+}
+p {
+	font-weight: 300;
+}
+strong {
+	font-weight: 700;
+	color: #000033;
+}
+
+.ph-border-test {
+	border: 2px solid red;
+}
+.ph-contact {
+	margin-top: 20px;
+	color: rgba(88,88,91,1.0);
+}
+.ph-contact a{
+	color: #3D5C5C;
+}
+.ph-contact p{
+	margin-bottom: 0px;
+}
+.ph-contact strong{
+	color: rgba(88,88,91,1.0);
+}
+.ph-logo-name {
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+	letter-spacing: 2px;
+	color: rgba(153,102,102,1.0);
+	margin-bottom: 2px;
+	font-size: 2.2em;
+}
+.ph-employer{
+	text-align: right;
+}
+.ph-employer h4{
+	padding: 3px 10px 3px 10px;
+	text-align: right;
+	margin-bottom: 0px;
+}
+.ph-employer h4:nth-child(1){
+	background-color: rgba(200,200,200,1.0);
+}
+.ph-employer h4:nth-child(2){
+	margin-top: 0px;
+}
+.ph-employer h4:nth-child(3){
+	color: #aaa;
+	font-size: .8em;
+	margin-right: 1px;
+	margin-top: 0px;
+}
+.ph-gig-h4{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.ph-resume-header {
+	font-size: 15px;
+}
+.ph-job div>h4:nth-child(1) {
+	margin-bottom: 6px;
+}
+.ph-job div>p{
+	margin-top: 0px;
+}
+.ph-jquery-test a:hover {
+	color: rgba(153,102,102,1.0);
+}
+.ph-job-details h4{
+	padding: 3px 10px 3px 0px;
+	margin-bottom: 0px;
+}
+.ph-logo-occup {
+  letter-spacing: 1.2px;
+  font-weight: 100;
+	color: rgba(153,102,102,1.0);
+	margin: 0px;
+	font-size: 1.65em;
+}
+.ph-resume {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 2px;
+	padding: 40px 60px 60px 60px;
+	border: 1px solid #ddd;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(100,100,100,.5);
+}
+.ph-skills h4{
+	padding: 3px 10px 3px 10px;
+	background-color: rgba(200,200,200,1.0);
+}
+.ph-subhead {
+	color: rgba(153,102,102,1.0);
+	font-size: 1.8em;
+}
+.ph-section-break div{
+	height: 15px;
+	margin: 0px 15px 0px 15px;
+	border-bottom: 1px solid rgba(204,204,203,.6);
+}
+.special {
+  padding-left: 80px;
+}
+
+@media (max-width: 767px) {
+	h4 {
+		font-size: 1.4em;
+		text-align: left;
+	}
+	.ph-employer h4{
+	/*text-align: center;*/
+	margin-bottom: 0px;
+	}
+	.ph-resume {
+	padding: 10px 10px 10px 10px;
+	margin: 12px 6px 12px 6px;
+	border-radius: 2px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(100,100,100,.5);
+	}
+	.ph-job{
+	border-bottom: 1px dotted rgba(200,200,200,.6);
+	}
+	.ph-section-break div{
+	height: 15px;
+	margin: 0px 15px 0px 15px;
+	border-bottom: 0px solid rgba(204,204,203,1.0);
+	}
+	.ph-subhead {
+	text-decoration: underline;
+	color: rgba(153,102,102,1.0);
+	font-size: 2em;
+	text-align: center;
+	}
+	.ph-skills {
+	margin: 0px;
+	background-color: #f0f0f0;
+	}
+	.ph-logo-name {
+	font-size: 3em;
+	text-align: center;
+	letter-spacing: 6px;
+	}
+	.ph-logo-occup {
+	font-size: 2.4em;
+	text-align: center;
+  letter-spacing: 2px;
+	}
+
+  .special {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+	.ph-resume {
+
+	}
+}
+
+@media (min-width: 1000px) {
+	.ph-resume {
+	width: 960px;
+	}
+}

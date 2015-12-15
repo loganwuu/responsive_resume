@@ -1,6 +1,6 @@
-# Resume
+# Logan's Resume
 
-##### [mobile responsive resume](http://loganwuu.github.io/responsive_resume)
+##### A mobile responsive printer-friendly [resume](http://loganwuu.github.io/responsive_resume)
 
 #### By Logan Wu
 
